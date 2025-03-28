@@ -1,13 +1,10 @@
 from fastapi import FastAPI
+from app.api.v1.endpoints import summarize
 
-app = FastAPI()
+app = FastAPI(title="Reddit Summarizer")
 
+app.include_router(summarize.router, prefix="/api/v1")
 
 @app.get("/")
 async def root():
-    return {"message": "Hello World"}
-
-
-@app.get("/hello/{name}")
-async def say_hello(name: str):
-    return {"message": f"Hello {name}"}
+    return {"message": "Welcome to Reddit Summarizer"}
