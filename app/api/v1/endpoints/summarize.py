@@ -8,9 +8,7 @@ router = APIRouter()
 @router.post("/summarize", response_model=SummaryResponse)
 async def summarize_reddit(request: SummaryRequest):
     try:
-        # Парсим Reddit и сохраняем текст
         content = await parse_reddit(request.url)
-
         summary = await summarize_text(content)
         return {"summary": summary}
     except Exception as e:
