@@ -1,3 +1,4 @@
+#app/schemas/summary.py
 from pydantic import BaseModel, HttpUrl
 
 class SummaryRequest(BaseModel):

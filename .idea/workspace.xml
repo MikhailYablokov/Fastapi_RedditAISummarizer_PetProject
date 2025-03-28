@@ -4,17 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="289713c7-e2d0-4827-95a7-f662db23d743" name="Changes" comment="Prepared the project structure">
+    <list default="true" id="289713c7-e2d0-4827-95a7-f662db23d743" name="Changes" comment="ai summation added">
       <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/api/v1/endpoints/summarize.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/v1/endpoints/summarize.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/core/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/schemas/summary.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/schemas/summary.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/utils/ai_summarizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/utils/ai_summarizer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/utils/reddit_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/utils/reddit_parser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +31,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MikhailYablokov&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ggerganov/llama.cpp.git&quot;,
+    &quot;accountId&quot;: &quot;ea52ab4c-470e-49f0-acc8-1d493e0eaaae&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -99,7 +109,8 @@
       <updated>1743074661670</updated>
       <workItem from="1743074662715" duration="933000" />
       <workItem from="1743151516160" duration="2077000" />
-      <workItem from="1743156545067" duration="7845000" />
+      <workItem from="1743156545067" duration="14130000" />
+      <workItem from="1743176838803" duration="4934000" />
     </task>
     <task id="LOCAL-00001" summary="Prepared the project structure">
       <option name="closed" value="true" />
@@ -109,7 +120,23 @@
       <option name="project" value="LOCAL" />
       <updated>1743159201260</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Reddit parser, save text from parsing into dir">
+      <option name="closed" value="true" />
+      <created>1743166053250</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1743166053250</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ai summation added">
+      <option name="closed" value="true" />
+      <created>1743178891180</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1743178891180</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +155,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Prepared the project structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Prepared the project structure" />
+    <MESSAGE value="Reddit parser, save text from parsing into dir" />
+    <MESSAGE value="ai summation added" />
+    <option name="LAST_COMMIT_MESSAGE" value="ai summation added" />
   </component>
 </project>
