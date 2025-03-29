@@ -7,7 +7,7 @@ Reddit Summarizer — это API на базе FastAPI, которое извл�
 ---
 - Python: 3.9 или выше  
 - Git: для клонирования репозитория  
-- Together API Key: зарегистрируйтесь на Together AI (https://together.ai) и получите API-ключ  
+- Together API Key: зарегистрируйтесь на Together AI (https://api.together.xyz/) и получите API-ключ  
 
 Установка:
 ---
@@ -72,7 +72,7 @@ Requirements:
 ---
 - Python: 3.9 or higher  
 - Git: for cloning the repository  
-- Together API Key: sign up at Together AI (https://together.ai) and get an API key  
+- Together API Key: sign up at Together AI (https://api.together.xyz/) and get an API key  
 
 Installation:
 ---
