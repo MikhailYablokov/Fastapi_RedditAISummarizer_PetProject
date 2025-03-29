@@ -3,7 +3,8 @@ Reddit Summarizer
 ---
 Reddit Summarizer — это API на базе FastAPI, которое извлекает содержимое постов Reddit (заголовок, текст и комментарии) и создает их краткое содержание с помощью искусственного интеллекта от Together AI. Подходит для быстрого анализа обсуждений без чтения всего треда.
 
-Требования  
+Требования:
+---
 - Python: 3.9 или выше  
 - Git: для клонирования репозитория  
 - Together API Key: зарегистрируйтесь на Together AI (https://together.ai) и получите API-ключ  
@@ -11,8 +12,7 @@ Reddit Summarizer — это API на базе FastAPI, которое извл�
 Установка:
 ---
 1. Клонируйте репозиторий:  
-   git clone https://github.com/MikhailYablokov/reddit-summarizer.git  
-   cd reddit-summarizer  
+   git clone https://github.com/MikhailYablokov/Fastapi_RedditAISummarizer_PetProject.git
 2. Создайте и активируйте виртуальную среду:  
    python -m venv venv  
    source venv/bin/activate (для Windows: venv\Scripts\activate)  
@@ -74,8 +74,7 @@ Requirements:
 Installation:
 ---
 1. Clone the repository:  
-   git clone https://github.com/MikhailYablokov/reddit-summarizer.git  
-   cd reddit-summarizer  
+   git clone https://github.com/MikhailYablokov/Fastapi_RedditAISummarizer_PetProject.git  
 2. Create and activate a virtual environment:  
    python -m venv venv  
    source venv/bin/activate (for Windows: venv\Scripts\activate)  
