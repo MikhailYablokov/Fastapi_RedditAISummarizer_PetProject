@@ -29,6 +29,9 @@ Reddit Summarizer — это API на базе FastAPI, которое извл�
    или  
    localhost:8000/api/v1/summarize?url=<ваша ссылка на тред с reddit>  
 7. Дождитесь ответа от нейросети  
+![image](https://github.com/user-attachments/assets/cddd3f2c-2501-4b8c-ac8b-1f38f599e166)
+или
+![image](https://github.com/user-attachments/assets/9d24231d-e385-42c0-ba0f-6557b492f70a)
 
 Стек технологий:
 ---
@@ -91,6 +94,9 @@ Installation:
    or  
    localhost:8000/api/v1/summarize?url=<your reddit thread link>  
 7. Wait for the neural network response  
+![image](https://github.com/user-attachments/assets/cddd3f2c-2501-4b8c-ac8b-1f38f599e166)
+or
+![image](https://github.com/user-attachments/assets/9d24231d-e385-42c0-ba0f-6557b492f70a)
 
 Tech Stack:
 ---
