@@ -2,7 +2,14 @@
 from fastapi import FastAPI
 from app.api.v1.endpoints import summarize
 
-app = FastAPI(title="Reddit Summarizer")
+# app/main.py
+app = FastAPI(
+    title="Reddit Summarizer",
+    description="API for summarizing Reddit posts using AI.",
+    version="1.0.0",
+    docs_url="/docs",
+    redoc_url="/redoc"
+)
 
 app.include_router(summarize.router, prefix="/api/v1")
 

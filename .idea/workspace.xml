@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="289713c7-e2d0-4827-95a7-f662db23d743" name="Changes" comment="ai summation added">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+    <list default="true" id="289713c7-e2d0-4827-95a7-f662db23d743" name="Changes" comment="Added `prompt` param to `summarize_text` with default &quot;Summarize this: &quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/api/v1/endpoints/summarize.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/v1/endpoints/summarize.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/core/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/schemas/summary.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/schemas/summary.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/utils/ai_summarizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/utils/ai_summarizer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/utils/reddit_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/utils/reddit_parser.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +105,8 @@
       <workItem from="1743074662715" duration="933000" />
       <workItem from="1743151516160" duration="2077000" />
       <workItem from="1743156545067" duration="14130000" />
-      <workItem from="1743176838803" duration="4934000" />
+      <workItem from="1743176838803" duration="5087000" />
+      <workItem from="1743239260891" duration="1482000" />
     </task>
     <task id="LOCAL-00001" summary="Prepared the project structure">
       <option name="closed" value="true" />
@@ -136,7 +132,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743178891180</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added `prompt` param to `summarize_text` with default &quot;Summarize this: &quot;">
+      <option name="closed" value="true" />
+      <created>1743182712875</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1743182712875</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,6 +161,7 @@
     <MESSAGE value="Prepared the project structure" />
     <MESSAGE value="Reddit parser, save text from parsing into dir" />
     <MESSAGE value="ai summation added" />
-    <option name="LAST_COMMIT_MESSAGE" value="ai summation added" />
+    <MESSAGE value="Added `prompt` param to `summarize_text` with default &quot;Summarize this: &quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added `prompt` param to `summarize_text` with default &quot;Summarize this: &quot;" />
   </component>
 </project>
