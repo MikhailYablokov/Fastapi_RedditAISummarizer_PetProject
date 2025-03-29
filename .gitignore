@@ -17,8 +17,7 @@ __pycache__/
 *.env
 
 # Сгенерированные файлы и директории
-reddit_parsed_text/
-*.txt  # Если вы хотите игнорировать все .txt, либо уточните путь, например, reddit_parsed_text/*.txt
+reddit_parsed_text/*.txt  # Если вы хотите игнорировать все .txt, либо уточните путь, например, reddit_parsed_text/*.txt
 
 # Зависимости и сборки
 dist/
