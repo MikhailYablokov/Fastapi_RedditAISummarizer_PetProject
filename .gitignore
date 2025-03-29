@@ -1,0 +1,44 @@
+# Виртуальные окружения
+venv/
+env/
+.venv/
+.env/
+
+# Файлы Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Логи
+*.log
+
+# Файлы конфигурации с чувствительными данными
+.env
+*.env
+
+# Сгенерированные файлы и директории
+reddit_parsed_text/
+*.txt  # Если вы хотите игнорировать все .txt, либо уточните путь, например, reddit_parsed_text/*.txt
+
+# Зависимости и сборки
+dist/
+build/
+*.egg-info/
+
+# IDE и редакторы
+.idea/  # PyCharm
+.vscode/  # Visual Studio Code
+*.sublime-workspace
+
+# Временные файлы
+*.swp
+*.bak
+*.tmp
+
+# Кэш и тесты
+.pytest_cache/
+.coverage
+coverage.xml
+
+# macOS
+.DS_Store
